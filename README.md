@@ -13,14 +13,14 @@ Cette application Streamlit permet de transcrire des fichiers audio en texte en 
 
 ## Prérequis
 
-- Python 3.7 ou supérieur
+- Python 3.11 ou supérieur
 - pip (gestionnaire de paquets Python)
 
 ## Installation
 
 1. Clonez le dépôt :
 ```bash
-git clone [URL_DU_REPO]
+git clone https://github.com/nicolasmanoharan/speech-text
 cd speech-totext
 ```
 
@@ -41,7 +41,7 @@ pydub
 
 1. Lancez l'application :
 ```bash
-streamlit run appv2.py
+streamlit run app.py
 ```
 
 2. Suivez les étapes dans l'interface :
